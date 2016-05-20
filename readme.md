@@ -11,7 +11,7 @@ The pairs may include:
 	<br>
 &nbsp;&nbsp;	`input_msg`:	message to display in prompt to user
 	<br>
-&nbsp;&nbsp;	`el`:			js_input_box gets appended to this element; js_input_box becomes first child of <body> if el is unspecified
+&nbsp;&nbsp;	`el`:			js_input_box gets appended to this element; js_input_box becomes first child of `<body>` if el is unspecified
 	<br>
 &nbsp;&nbsp;	`callback`:	callback function to execute on completion of prompt
 	<br>
