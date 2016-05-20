@@ -1,0 +1,33 @@
+<!--
+Customizable html prompt (js_input) template
+This html is already embedded in the js_input.js file
+-->
+<div id='js_input_box'>
+	<div id='js_input_msg'>add input:</div>
+	<textarea id='js_input_text'></textarea>
+	<br>
+	<button class='js_input_button js_input_cancel'>cancel</button>
+	<button class='js_input_button js_input_ok'>ok</button>
+
+	<style>
+		#js_input_box{
+			background-color:rgb(240,240,240);
+			border-style:solid;
+			border-color:rgb(160,160,160);
+			border-width:2px;
+			border-radius:2px;
+			text-align:center;
+			position:fixed;
+			z-index:100;
+		}
+		#js_input_text{
+			margin-top:2px;
+			height:140px;
+			width:260px;
+		}
+		#js_input_msg{
+			margin:2px;
+		}
+	</style>
+</div>
+
