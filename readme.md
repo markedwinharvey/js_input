@@ -9,13 +9,13 @@ dict is a dictionary/object featuring key:value data pairs.
 <br>
 The pairs may include:
 	<br>
-\t	`input_msg`:	message to display in prompt to user
+&nbsp;&nbsp;	`input_msg`:	message to display in prompt to user
 	<br>
-	`el`:			js_input_box gets appended to this element; js_input_box becomes first child of <body> if el is unspecified
+&nbsp;&nbsp;	`el`:			js_input_box gets appended to this element; js_input_box becomes first child of <body> if el is unspecified
 	<br>
-	`callback`:	callback function to execute on completion of prompt
+&nbsp;&nbsp;	`callback`:	callback function to execute on completion of prompt
 	<br>
-	`params`:		js object of key:value pairs passed as parameter list in callback function
+&nbsp;&nbsp;	`params`:		js object of key:value pairs passed as parameter list in callback function
 	
 A simple, customizable html template for the prompt (#js_input_box) is embedded in the javascript. 
 
