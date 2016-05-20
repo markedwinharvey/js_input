@@ -2,6 +2,7 @@
 //	custom javascript prompt-style input function
 //		appends prompt to html, receives user data, 
 //		passes data to callback function, and removes itself
+//	js_input.js requires jquery to be loaded in the html document!!
 function js_input(dict){
 	//	dictionary object is key:value pairs, which may include the following keys:
 	//	input_msg: 	message to display in prompt to user

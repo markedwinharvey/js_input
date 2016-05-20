@@ -24,3 +24,5 @@ When js_input(dict) is called, the input box is appended to the html document.
 The prompt collects user input, adds this input to dict.params, 
 executes the callback function (passing params object),
 and removes itself from the document. 
+
+js_input.js relies on jquery to operate. 
